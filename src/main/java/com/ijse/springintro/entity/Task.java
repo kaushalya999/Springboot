@@ -20,4 +20,14 @@ public class Task {
 
     private LocalDateTime dueDate;
 
+    //setter
+    public void setTaskName(String taskname){
+        this.taskName = taskName;
+    }
+
+    //getter
+    public String getTaskName(){
+        return this.taskName;
+    }
 }
+ 
