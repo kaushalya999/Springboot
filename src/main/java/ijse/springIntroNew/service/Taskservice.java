@@ -13,6 +13,10 @@ public interface Taskservice {
 
     Task createTask(Task task); // Creating
 
-    Task getTaskById(long id); // Finding a task by its primary key
+    Task getTaskById(Long id); // Finding a task by its primary key
+
+    Task updateTask(Long id, Task task); // Find Task and Update
+
+    void deleteTask(Long id); // Delete task
 
 }
