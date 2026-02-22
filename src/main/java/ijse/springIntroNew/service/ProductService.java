@@ -14,4 +14,6 @@ public interface ProductService {
     Product createProduct(Product product); // create a product
 
     Product updateProduct(Long id, Product product); // Update Product
+
+    Product getProductById(Long id); // Get product by id
 }
